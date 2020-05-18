@@ -1,23 +1,21 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
-  </div>
+    <div id="app">
+        <keep-alive :include="$store.state.keepAliveViews" :max="5">
+            <router-view />
+        </keep-alive>
+    </div>
 </template>
 
 <script>
+//载入样式
+import './common/sass/frame.scss';
+
+
 export default {
   name: 'App'
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

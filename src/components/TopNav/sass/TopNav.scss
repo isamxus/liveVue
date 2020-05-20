@@ -1,0 +1,15 @@
+@charset 'utf-8';
+@import '../../../common/sass/base';
+
+.top-nav-container{
+	height: 3rem;
+	padding: .5rem;
+    padding-left: $page_navigation_height;
+    background-color: $web_background;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow: 0 .1rem .05rem .05rem $color_shadow;
+    z-index: $sub_page_depth;
+}

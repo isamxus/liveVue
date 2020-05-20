@@ -1,2 +1,16 @@
 @charset 'utf-8';
 @import 'base';
+
+html {
+    background-color: #F0F1F5;
+}
+
+/* 右视图附加样式 */
+.page-container{
+    position: absolute;
+    left: 10rem;
+    top: 3rem;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}

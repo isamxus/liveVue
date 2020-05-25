@@ -12,7 +12,19 @@
 			</template>
 		</Menu>
 		<div class="search-box">
-			<Input type="text" />
+			<Input type="text">
+				<Icon :style="{cursor: 'pointer'}" type="ios-search" slot="suffix" />
+			</Input>
+		</div>
+		<div class="right-tool-bar">
+			<div class="icon-item">
+				<Icon type="md-heart-outline" size="24" />
+				<span>关注</span>
+			</div>
+			<div class="icon-item">
+				<Icon type="md-heart-outline" size="24" />
+				<span>历史</span>
+			</div>
 		</div>
 	</div>
 </template>

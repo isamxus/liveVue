@@ -11,10 +11,40 @@
     right: 0;
     box-shadow: 0 .1rem .05rem .05rem $color_shadow;
     z-index: $sub_page_depth;
+    .ivu-menu {
+    	display: inline-block;
+    }
     .search-box {
-        position: absolute;
+    	position: absolute;
         display: inline-block;
-        width: 3rem;
+        width: 8rem;
         height: 100%;
+        top: 50%;
+        margin-top: -16px;
+        .ivu-input {
+        	border-radius: 10px;
+        	background: #f8f8f9;
+        }
+    }
+    .right-tool-bar {
+    	width: 40%;
+    	float: right;
+    	height: 3rem;
+    	padding-right: .5rem;
+    	line-height: 3rem;
+    	display: flex;
+    	align-items: center;
+    	.icon-item{
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		height: 100%;
+    		padding: 0 .7rem;
+    		span {
+    			position: absolute;
+    			margin-top: .7rem;
+    			font-size: .5rem;
+    		}
+    	}
     }
 }

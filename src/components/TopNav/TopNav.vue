@@ -52,6 +52,9 @@ export default {
 		TopNavList () {
 			return TopNavList;
 		}
+	},
+	methods: {
+
 	}
 }
 </script>

@@ -30,21 +30,15 @@
     	width: 40%;
     	float: right;
     	height: 3rem;
-    	padding-right: .5rem;
-    	line-height: 3rem;
-    	display: flex;
-    	align-items: center;
+    	padding-right: 3.5rem;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
     	.icon-item{
-    		display: flex;
-    		justify-content: center;
-    		align-items: center;
-    		height: 100%;
-    		padding: 0 .7rem;
-    		span {
-    			position: absolute;
-    			margin-top: .7rem;
-    			font-size: .5rem;
-    		}
+    	   width: 2rem;
+           span {
+               font-size: .7rem;
+           }
     	}
     }
 }

@@ -84,11 +84,11 @@ function ready(){
 }
 
 router.beforeEach((to, from, next) => {
-
+    next();
 })
 
 axios.interceptors.response.use(response=>{
-    
+    return response;
 },error=>{
     return Promise.reject(error);
 });

@@ -18,6 +18,9 @@
 		</div>
 		<div class="right-tool-bar">
 			<div class="icon-item">
+				<Icon type="md-contact" size="48" />
+			</div>
+			<div class="icon-item">
 				<Icon type="md-heart-outline" size="24" />
 				<span>关注</span>
 			</div>

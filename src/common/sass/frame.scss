@@ -14,3 +14,17 @@ html {
     bottom: 0;
     overflow: auto;
 }
+
+/* 左边菜单栏 */
+.left-side-container {
+	width: 10rem;
+    background-color: $color_content;
+    padding-top: 3.5rem;
+    position: absolute;
+    left: 0;
+    top: 3rem;
+    bottom: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    z-index: 5;
+}

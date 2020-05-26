@@ -16,6 +16,8 @@
 //载入样式
 import './common/sass/frame.scss';
 import TopNav from './components/TopNav/TopNav';
+import UnderBoard from './components/underBoard/underBoard';
+import SidebarMenu from './components/SidebarMenu/SidebarMenu';
 
 export default {
   	name: 'App',
@@ -24,7 +26,7 @@ export default {
 
   		}
   	},
-  	components: {TopNav}
+  	components: {TopNav, UnderBoard}
 }
 </script>
 
